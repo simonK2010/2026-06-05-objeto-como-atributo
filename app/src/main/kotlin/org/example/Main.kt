@@ -15,6 +15,6 @@ fun main()  {
     objeto=CuadraticaMejor()
     println(objeto)
     var lista=ArrayList<Polinomio>()
-    for (var p : lista)
+    for ( p in lista)
     print(p)
 }
