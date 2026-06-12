@@ -5,7 +5,7 @@ class Persona(
     private val apellido: String,
     private val fecha: Fecha){
     override fun toString(): String{
-    return "Persona(${nombre}, ${apellido}, ${fecha})"
+    return "${nombre}, ${apellido}, ${fecha}"
     }
 }
 
