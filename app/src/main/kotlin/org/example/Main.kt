@@ -4,11 +4,13 @@ import org.example.Polinomio
 import org.example.Cuadratica
 import org.example.CuadraticaMejor
 import org.example.Cuatrinomio
-fun main()  {
+import org.example.Terminos
+fun main(){
     println(Persona("pepe", "honguito", Fecha(5, 6, 2026)))
     println(Polinomio())
     println(Cuadratica())
     println(CuadraticaMejor())
+    println(Terminos(2,4,-3))
     var objeto: Polinomio
     objeto=Cuadratica()
     println(objeto)
