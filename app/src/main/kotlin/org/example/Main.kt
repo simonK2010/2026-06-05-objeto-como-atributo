@@ -3,7 +3,7 @@ import org.example.app.Persona
 import org.example.Polinomio
 import org.example.Cuadratica
 import org.example.CuadraticaMejor
-
+import org.example.Cuatrinomio
 fun main()  {
     println(Persona("pepe", "honguito", Fecha(5, 6, 2026)))
     println(Polinomio())
@@ -15,6 +15,6 @@ fun main()  {
     objeto=CuadraticaMejor()
     println(objeto)
     var lista=ArrayList<Polinomio>()
-    for ( p in lista)
-    print(p)
+    for(polinomio in lista)
+    print(polinomio)
 }
